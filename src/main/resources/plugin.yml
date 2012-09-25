@@ -1,0 +1,19 @@
+name: TradingPost
+main: net.lethargiclion.tradingpost.TradingPost
+version: 0.1a1
+commands:
+    tr:
+        description: Allows you to use Trading Post features.
+        permission: tradingpost.use
+        usage: Your command was invalid. Try /tr help
+    tradmin:
+        description: Allows you to use administrative Trading Post features.
+        permission: tradingpost.admin
+        usage: /tradmin <command> ...
+permissions:
+    tradingpost.use:
+        description: Grants access to all general Trading Post user commands.
+        default: true
+    tradingpost.admin:
+        description: Grants access to all administrative Trading Post commands.
+        default: op

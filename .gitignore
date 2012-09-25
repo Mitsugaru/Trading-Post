@@ -2,3 +2,4 @@ TradingPost/bin/*
 TradingPost/.*
 .classpath
 .project
+/.settings
